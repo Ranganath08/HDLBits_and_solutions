@@ -11,7 +11,7 @@ module top_module(
     input bump_left,
     input bump_right,
     input ground,
-    input dig,
+    input dig, 
     output walk_left,
     output walk_right,
     output aaah,
