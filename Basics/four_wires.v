@@ -13,6 +13,6 @@ module top_module(
     assign w = a;
     assign x = b;
     assign y = b;
-    assign z = c;
+    assign z = c; 
     
 endmodule
