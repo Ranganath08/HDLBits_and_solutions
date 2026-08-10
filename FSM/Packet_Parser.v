@@ -7,7 +7,7 @@ module top_module(
     reg [1:0] state, next_state;
     parameter BYTE1 = 0, BYTE2 = 1, BYTE3 = 2, DONE = 3;
     
-    always @ (*) begin
+    always @ (*) begin 
         case (state)
             BYTE1 : next_state = in[3] ? BYTE2 : BYTE1;
             BYTE2 : next_state = BYTE3;
